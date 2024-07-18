@@ -7,7 +7,7 @@ export default {
     return [
       {
         source: '/api/:path*',
-        destination: 'http://localhost:5000/:path*', // Ensure this points to your Flask server
+        destination: 'https://face-recognition-server-jade.vercel.app/:path*', // Ensure this points to your Flask server
       },
     ];
   },
